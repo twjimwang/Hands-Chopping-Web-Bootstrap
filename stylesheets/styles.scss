@@ -1,0 +1,65 @@
+%nostyle-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+.container-fluid{
+  padding: 0;
+}
+.jumbotron {
+  background: url(../images/head.png) no-repeat center center;
+  background-size: cover;
+  color: white;
+}
+
+.input-group-text{
+    border: none;
+    background-color: white;
+    border-bottom: #000 2px solid ;
+    border-radius: 0; 
+
+}
+
+.form-control{
+border: none;
+border-bottom: #000 2px solid;
+border-radius: 0; 
+}
+
+.bottom-menu {
+    height: 38px;
+    background-color: #444;
+  
+    ul {
+      @extend %nostyle-list;
+      display: flex;
+    }
+    li {
+      flex: 0 0 20%;
+    }
+    a {
+      display: block;
+      height: 38px;
+      line-height: 38px;
+      color: #fff;
+      text-align: center;
+      text-decoration: none;
+    }
+    a:hover {
+      background: #fff;
+      color: #000;
+    }
+  }
+
+  .page-footer {
+    background-color: #ddd;
+    color: #000;
+  }
+  
+
+
+@media (min-width: 576px) {
+  .jumbotron {
+    min-height:500px;
+  }
+}

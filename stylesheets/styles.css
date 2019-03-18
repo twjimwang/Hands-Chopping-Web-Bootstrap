@@ -1,1 +1,71 @@
-/* No CSS *//*# sourceMappingURL=styles.css.map */
+.bottom-menu ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.container-fluid {
+  padding: 0;
+}
+
+.jumbotron {
+  background: url(../images/head.png) no-repeat center center;
+  background-size: cover;
+  color: white;
+}
+
+.input-group-text {
+  border: none;
+  background-color: white;
+  border-bottom: #000 2px solid;
+  border-radius: 0;
+}
+
+.form-control {
+  border: none;
+  border-bottom: #000 2px solid;
+  border-radius: 0;
+}
+
+.bottom-menu {
+  height: 38px;
+  background-color: #444;
+}
+
+.bottom-menu ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.bottom-menu li {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 20%;
+          flex: 0 0 20%;
+}
+
+.bottom-menu a {
+  display: block;
+  height: 38px;
+  line-height: 38px;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+}
+
+.bottom-menu a:hover {
+  background: #fff;
+  color: #000;
+}
+
+.page-footer {
+  background-color: #ddd;
+  color: #000;
+}
+
+@media (min-width: 576px) {
+  .jumbotron {
+    min-height: 500px;
+  }
+}
+/*# sourceMappingURL=styles.css.map */
